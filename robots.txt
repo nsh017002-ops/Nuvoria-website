@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nsh017002-ops.github.io/Nuvoria-website/sitemap.xml
