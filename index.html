@@ -1091,7 +1091,10 @@
         <a href="https://wa.me/919897960422" target="_blank" class="btn btn-whatsapp">💬 WhatsApp Us</a>
         <a href="tel:9897960422" class="btn btn-outline">📞 Call Now</a>
       </div>
-      <form id="contactForm" class="contact-form" novalidate>
+      <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="contact-form">
+        <input type="hidden" name="access_key" value="90202bf7-c28a-47f7-b51e-a82332b512c3">
+        <input type="hidden" name="subject" value="New Contact Form Submission - Nuvoria Website">
+<input type="hidden" name="from_name" value="Nuvoria Website">
         <div class="field"><label for="cf-name" class="sr-only">Your Name</label><input id="cf-name" type="text" name="name" placeholder="Your Name" required></div>
         <div class="field"><label for="cf-email" class="sr-only">Your Email</label><input id="cf-email" type="email" name="email" placeholder="Your Email" required></div>
         <div class="field"><label for="cf-message" class="sr-only">Your Message</label><textarea id="cf-message" name="message" placeholder="Tell us about your project..." required></textarea></div>
